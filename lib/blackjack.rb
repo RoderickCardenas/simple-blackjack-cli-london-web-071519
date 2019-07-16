@@ -32,12 +32,13 @@ def initial_round
   first_hand
 end
 
-def hit?
-  # code hit? here
-end
-
 def invalid_command
   puts 'Please enter a valid command'
+end
+
+def hit?
+  prompt_user
+  get_user_input
 end
 
 #####################################################
