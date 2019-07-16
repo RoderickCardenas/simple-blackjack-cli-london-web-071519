@@ -25,6 +25,8 @@ def end_game(card_total)
 end
 
 def initial_round
+  deal_card
+  deal_card
   first_hand = deal_card + deal_card
   display_card_total(first_hand)
 end
