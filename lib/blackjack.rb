@@ -37,8 +37,8 @@ def invalid_command
 end
 
 def hit?
-  prompt_user
-  get_user_input
+  question = prompt_user
+  input = get_user_input
 end
 
 #####################################################
