@@ -21,7 +21,7 @@ end
 
 def end_game(card_total)
   total = card_total
-  puts 
+  puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
 def initial_round
